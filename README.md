@@ -19,7 +19,7 @@ r=requests.get(url,params=None,kwargs)
 
 ![image](https://user-images.githubusercontent.com/45223160/141295527-38655123-44d6-475f-aaab-4c18f62a651b.png)
 
-r.encoding:从http head中猜测的响应内容编码方式，如果head中不存在charset，则默认编码为ISO-8859-1
+r.encoding:从http head中猜测的响应内容编码方式，如果head中不存在charset，则默认编码为ISO-8859-1   
 r.apparent_encoding:根据网页内容分析出编码方式
 
 #### 爬取网页的通用代码框架
