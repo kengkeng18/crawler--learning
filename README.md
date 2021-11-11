@@ -31,29 +31,29 @@ def getHTMLText(url)
      retuen "产生异常"
 
 #### http协议
-url格式 http://host[:port][path]
-port:可省略，默认80
+url格式 http://host[:port][path]   
+port:可省略，默认80   
 
-get:请求获取url位置的资源
-head：请求获取url位置资源的头部信息
-post：向url位置的资源后附加新的数据
-put：向url位置存储一个资源，覆盖原url位置的资源
-patch；局部更新url位置的资源
-delete：删除url位置存储的资源
+get:请求获取url位置的资源   
+head：请求获取url位置资源的头部信息   
+post：向url位置的资源后附加新的数据   
+put：向url位置存储一个资源，覆盖原url位置的资源   
+patch；局部更新url位置的资源   
+delete：删除url位置存储的资源   
 
 #### requests方法
-requests.request(method,url,kwargs)
-kwargs 13个控制访问参数，均为可选项
-params:字典或
-data
-json
-headers
-cookies
-auth
-files
-timeout
-proxies
-allow_redirects
-stream
-verify
-cert
+requests.request(method,url,kwargs)   
+kwargs 13个控制访问参数，均为可选项   
+params:字典或   
+data   
+json   
+headers   
+cookies   
+auth   
+files   
+timeout   
+proxies   
+allow_redirects   
+stream   
+verify   
+cert   
