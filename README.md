@@ -20,7 +20,7 @@ r.encoding:从http head中猜测的响应内容编码方式，如果head中不�
 r.apparent_encoding:根据网页内容分析出编码方式
 
 #### 爬取网页的通用代码框架
-
+    
 def getHTMLText(url)
   try:
      r=requests.get(url,timeout=30)
@@ -29,7 +29,7 @@ def getHTMLText(url)
      return r.text
   except:
      retuen "产生异常"
-
+    
 #### http协议
 url格式 http://host[:port][path]   
 port:可省略，默认80   
